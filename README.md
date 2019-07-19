@@ -60,4 +60,29 @@ Done installing SDK 'sdk-releases-fastcomp-f42b12c45fd3f4c20de1321402fbc28f8fd21
 ```
 $ ./emsdk activate latest
 
+```
+Writing .emscripten configuration file to user home directory /home/max/
+The Emscripten configuration file /home/max/.emscripten has been rewritten with the following contents:
+
+import os
+LLVM_ROOT = '/home/max/emsdk/fastcomp/fastcomp/bin'
+BINARYEN_ROOT = '/home/max/emsdk/fastcomp'
+EMSCRIPTEN_NATIVE_OPTIMIZER = '/home/max/emsdk/fastcomp/bin/optimizer'
+NODE_JS = '/home/max/emsdk/node/8.9.1_64bit/bin/node'
+SPIDERMONKEY_ENGINE = ''
+V8_ENGINE = ''
+TEMP_DIR = '/tmp'
+COMPILER_ENGINE = NODE_JS
+JS_ENGINES = [NODE_JS]
+
+To conveniently access the selected set of tools from the command line, consider adding the following directories to PATH, or call 'source ./emsdk_env.sh' to do this for you.
+
+   /home/max/emsdk:/home/max/emsdk/fastcomp/emscripten:/home/max/emsdk/node/8.9.1_64bit/bin
+
+Set the following tools as active:
+   releases-fastcomp-f42b12c45fd3f4c20de1321402fbc28f8fd21df1-64bit
+   node-8.9.1-64bit
+
+```
+
 [Read more](https://webassembly.org/getting-started/developers-guide/)
