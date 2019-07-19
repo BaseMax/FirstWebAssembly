@@ -93,3 +93,18 @@ Set the following tools as active:
 ```
 
 [Read more](https://webassembly.org/getting-started/developers-guide/)
+
+
+## Using and compile
+
+```
+emcc hello.c -s WASM=1 -o hello.html
+```
+
+## Serve
+
+To serve the compiled files over HTTP, we can use the emrun web server provided with the Emscripten SDK:
+
+```
+$ emrun --no_browser --port 8080 .
+```
