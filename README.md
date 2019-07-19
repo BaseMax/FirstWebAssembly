@@ -16,6 +16,13 @@ WebAssembly is an open standard that defines a portable binary code format for e
 - **Designed by:** World Wide Web Consortium
 - **Developer:** W3C; Mozilla; Microsoft; Google; Apple
 
+## Install from mirror
+
+```
+$ sudo apt install emscripten # ubuntu
+$ sudo pacman -S emscripten # arch, https://www.archlinux.org/packages/community/x86_64/emscripten/
+```
+
 ## Install
 
 $ git clone https://github.com/emscripten-core/emsdk.git 
