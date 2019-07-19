@@ -98,7 +98,7 @@ Set the following tools as active:
 ## Using and compile
 
 ```
-emcc hello.c -s WASM=1 -o hello.html
+$ emcc hello.c -s WASM=1 -o hello.html
 ```
 
 ## Serve
